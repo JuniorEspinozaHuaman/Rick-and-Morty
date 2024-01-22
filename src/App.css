@@ -1,0 +1,31 @@
+.App__form {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.App__input__location {
+    border-radius:0.5em 0 0 0.5em;
+    border: none;
+    padding: 0.3em;
+}
+
+.App__button {
+    border-radius: 0 0.5em 0.5em 0;
+    border: none;
+    background-color: #71a821;
+    color: white;
+    padding: 0 1.2em;
+}
+
+.location__container {
+    display: flex;
+    justify-content: center;
+}
+.resident__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
