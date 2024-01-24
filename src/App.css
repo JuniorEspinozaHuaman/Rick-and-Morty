@@ -1,3 +1,18 @@
+.App__img__header {
+    margin-bottom: 3em;
+    text-align: center;
+
+}
+.Error__img__container {
+    display: flex;
+    justify-content: center;
+}
+
+.Error__img {
+    width: 100%;
+    max-width: 900px;
+}
+
 .App__form {
     margin-bottom: 2rem;
     width: 100%;
