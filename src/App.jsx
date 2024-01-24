@@ -16,13 +16,17 @@ function App() {
 
 
   useEffect(() => {
-    getLocation()
+    if(inputValue !== '') {
+      getLocation()
+    }
+    
   }, [inputValue])
 
   const inputLocation = useRef()
+
   const handleSubmit = e => {
     e.preventDefault()
-    setInputValue(inputLocation.current.value)
+    setInputValue(inputLocation.current.value.trim())
   }
 
   return (

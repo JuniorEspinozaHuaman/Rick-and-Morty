@@ -5,6 +5,7 @@ import './styles/ResidentCard.css'
 const ResidentCard = ({ url }) => {
 
     const [resident, getResident] = useFetch(url)
+    
     useEffect(() => {
         getResident()
     }, [])
